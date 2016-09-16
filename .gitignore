@@ -1,0 +1,17 @@
+# compiled output
+/js
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+/.vscode
+
+# misc
+/coverage
+npm-debug.log*
+
+# System Files
+.DS_Store
+Thumbs.db
