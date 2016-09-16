@@ -27,13 +27,20 @@
     "test:watch": "jest --watch",
     "watch": "tsc --watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "rimraf": "^2.5.4"
+  },
   "devDependencies": {
+    "@types/bluebird": "^3.0.32",
     "@types/jest": "^0.9.31",
+    "@types/mock-fs": "^3.6.28",
     "@types/node": "^6.0.38",
+    "@types/rimraf": "0.0.27",
     "jasmine": "^2.5.1",
     "jest": "^15.1.1",
     "jest-cli": "^15.1.1",
+    "mock-fs": "^3.11.0",
     "tslint": "^3.15.1",
     "typescript": "^2.0.2"
   }
